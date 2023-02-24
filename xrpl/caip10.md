@@ -14,7 +14,7 @@ requires: ["CAIP-2", "CAIP-10"]
 
 ## Rationale
 
-In CAIP-10, a string-based general account address scheme is defined. The XRPL Addresses are identified by an address in the XRP Ledger's base58 encoding. The address is derived from an account's master public key. An XRPL address is a string with the following characteristics.
+In CAIP-10, a string-based general account address scheme is defined. XRPL addresses are identified by an address in the XRP Ledger's base58 encoding. The address is derived from an account's master public key. An XRPL address is a string with the following characteristics.
 * It is between 25 and 35 characters long.
 * It starts with the character `r`
 * It uses alpanumerical characters excluding number `0`, lowercase letter `"l"` and capital letters `["O", "I"]`.

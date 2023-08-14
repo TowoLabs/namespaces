@@ -88,17 +88,17 @@ Signature verification behaves similarly. We can use standard [secp256k1][secp25
 ## References
 
 [EIP-4361]: https://eips.ethereum.org/EIPS/eip-4361
-[caip-10]: https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-10.md
-[caip-2]: https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md
-[caip-122]: https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-122.md
+[caip-10]: https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-10.md
+[caip-2]: https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-2.md
+[caip-122]: https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-122.md
 [ed25519]: https://ed25519.cr.yp.to/
 [secp256k1]: https://en.bitcoin.it/wiki/Secp256k1
 [ripple-keypairs]: https://www.npmjs.com/package/ripple-keypairs
 
 - [EIP-4361][]: Sign-In with Ethereum
-- [CAIP-10](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-10.md): Account ID Specification
-- [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md): Blockchain ID Specification
-- [CAIP-122](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-122.md): Sign in With X Specification
+- [CAIP-10](https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-10.md): Account ID Specification
+- [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-2.md): Blockchain ID Specification
+- [CAIP-122](https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-122.md): Sign in With X Specification
 - [Ed25519](https://ed25519.cr.yp.to/): Ed25519: high-speed high-security signatures
 - [secp256k1](https://en.bitcoin.it/wiki/Secp256k1): secp256k1 algorithm.
 - [ripple-keypairs](https://www.npmjs.com/package/ripple-keypairs): Ripple keypairs

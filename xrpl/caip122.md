@@ -31,7 +31,7 @@ We propose using the signature type `xrpl:secp256k1` and `xrpl:ed25519` to refer
 
 ### Signature Creation
 
-The abstract data model must be converted into a string representation in an unambigious format, and then the string converted to the proper format mentioned in [signing algorithm](#signing-algorithm) to be signed over with the proper algorithm..
+The abstract data model must be converted into a string representation in an unambigious format, and then the string converted to the proper format mentioned in [signing algorithm](#signing-algorithm) to be signed over with the proper algorithm.
 Depending on the method used for signatures, this conversion may or may not happen automatically. For example, if using [ripple-keypairs][ripple-keypairs] you need to convert it to a byte representation before signing using [Ed25519][Ed25519] and for [secp256k1][secp256k1] the library will handle hashing and signing.
 
 We propose the following string format, inspired by [EIP-4361][EIP-4361].
